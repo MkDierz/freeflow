@@ -1,12 +1,6 @@
 "use client";
 
-import {
-  Card,
-  CardContent,
-  CardDescription,
-  CardHeader,
-  CardTitle,
-} from "@/components/ui/card";
+import { Card, CardHeader, CardTitle } from "@/components/ui/card";
 import { Button } from "../ui/button";
 import { SymbolIcon, TrashIcon } from "@radix-ui/react-icons";
 import { api, type RouterOutputs } from "@/trpc/react";
